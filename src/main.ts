@@ -4,8 +4,11 @@ import router from './router'
 import store from './store'
 import './registerServiceWorker'
 import 'amfe-flexible'
+import cube from 'cube-ui'
 
 Vue.config.productionTip = false
+
+Vue.use(cube)
 
 new Vue({
   router,
