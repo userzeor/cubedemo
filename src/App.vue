@@ -1,16 +1,20 @@
+<!--
+ * @Descripttion: 
+ * @version: 1.0
+ * @Author: userzero
+ * @Date: 2019-07-29 10:58:52
+ * @LastEditors: userzero
+ * @LastEditTime: 2019-07-29 17:02:37
+ -->
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
     <router-view />
   </div>
 </template>
 
-<style lang="scss">
+<style lang="styl">
 #app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
